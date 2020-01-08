@@ -1,10 +1,23 @@
 <html>
     <head>
         <title>Grupo Dafel</title>
+        <link href="css/global.css" rel="stylesheet"/>
+        <link href="css/header.css" rel="stylesheet"/>
+        <link href="css/slide.css" rel="stylesheet"/>
+        <link href="css/{$ROUTE}.css" rel="stylesheet"/>
+        <link href="font-awesome/css/font-awesome.css" rel="stylesheet"/>
     </head>
     <body>
-        <header></header>
-        {include file="{$PATH_TEMPLATES}pages/{$ROUTE}.html"}</div>
+        {include file="{$PATH_TEMPLATES}includes/header.html"}
+        {if $ROUTE == "home"}
+            {include file="{$PATH_TEMPLATES}slide.html"}
+        {else}
+            {include file="{$PATH_TEMPLATES}guide.html"}
+        {/if}
+        {include file="{$PATH_TEMPLATES}pages/{$ROUTE}.html"}
         <footer></footer>
     </body>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/global.js"></script>
+    <script src="js/{$ROUTE}.js"></script>
 </html>
