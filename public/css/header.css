@@ -9,17 +9,9 @@ header
     border-bottom: 1px solid #3F3E48;
 }
 
-header .container div
-{
-    height: 100%;
-    float: left;
-    box-sizing: border-box;
-}
-
 header .container .logo
 {
-    width: 15%;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 header .container .logo img
@@ -30,7 +22,6 @@ header .container .logo img
 
 header .container .menu
 {
-    width: 70%;
     text-align: center;
 }
 
@@ -38,7 +29,7 @@ header .container .menu a
 {
     height: 32px;
     transition: all .3s ease;
-    padding: 30px 20px;
+    padding: 24px 20px;
     color: #fff;
     text-decoration: none;
     display: inline-block;
@@ -51,7 +42,6 @@ header .container .menu a:hover
 
 header .container .categories
 {
-    width: 15%;
     padding: 32px 0 30px;
     text-align: right;
 }
