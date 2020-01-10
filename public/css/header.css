@@ -3,16 +3,15 @@ header
     top: 0;
     left: 0;
     right: 0;
+    z-index: 2;
     height: 92px;
     position: fixed;
-    padding-top: 10px;
     border-bottom: 1px solid #3F3E48;
-    z-index: 1;
 }
 
 header .container .logo
 {
-    padding: 10px 0;
+    padding: 20px 0;
 }
 
 header .container .logo img
@@ -28,12 +27,11 @@ header .container .menu
 
 header .container .menu a
 {
-    height: 32px;
-    transition: all .3s ease;
-    padding: 24px 20px;
     color: #fff;
-    text-decoration: none;
+    padding: 34px 20px;
     display: inline-block;
+    text-decoration: none;
+    transition: all .3s ease;
 }
 
 header .container .menu a:hover
@@ -43,6 +41,6 @@ header .container .menu a:hover
 
 header .container .categories
 {
-    padding: 19px 0 24px;
+    padding: 26px 0;
     text-align: right;
 }

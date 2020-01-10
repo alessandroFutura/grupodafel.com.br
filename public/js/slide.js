@@ -6,7 +6,8 @@ $(document).ready(function(){
 });
 
 Home = {
+    factor: 0.45,
     slideHeight: function () {
-        $('.slide').css('height',$(window).height());
+        $('.carousel-item').css('height',$(window).width()*Home.factor);
     }
 };

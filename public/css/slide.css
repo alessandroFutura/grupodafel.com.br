@@ -1,8 +1,26 @@
-.slide
+.features
 {
-    height: 600px;
-    background-color: #474C55;
-    padding-top: 145px;
+    position: relative;
+}
+
+.features .carousel .overlay
+{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+.features .body
+{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    padding: 92px 0;
+    position: absolute;
 }
 
 .top-text
