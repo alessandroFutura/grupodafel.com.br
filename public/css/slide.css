@@ -2,12 +2,7 @@
 {
     height: 600px;
     background-color: #474C55;
-}
-
-.slide-text
-{
-    height: 145px;
-    text-align: start;
+    padding-top: 145px;
 }
 
 .top-text
@@ -82,11 +77,33 @@
 
 .search-bar button:hover
 {
-    border-radius: 5px;
-    border-width: 2px;
-    font-size: 18px;
-    padding: 11px 24px;
-    background-color: darkorange;
     color: white;
-    border-color: darkorange;
+}
+
+.product-research
+{
+    border: 2px solid rgba(255, 255, 255, 0.4) !important;
+    text-align: center;
+    width: 95px;
+    height: 85px;
+}
+
+.product-research .fa
+{
+    font-size: 40px;
+    padding: 10px;
+}
+
+.keyboard
+{
+    border: 2px solid rgba(255, 255, 255, 0.4) !important;
+    text-align: center;
+    width: 95px;
+    height: 85px;
+}
+
+.keyboard .fa
+{
+    font-size: 40px;
+    padding: 10px;
 }
