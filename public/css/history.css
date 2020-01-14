@@ -1,5 +1,33 @@
 .history
 {
     height: 800px;
-    background-color: #3F3E48;
 }
+
+.home .history .text-history h2
+{
+    color: black;
+    font-size: 45px;
+    padding: 40px 366px 20px;
+    margin: 15px;
+    text-align: center;
+}
+
+.home .history .text-history p
+{
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    padding: 35px 130px;
+    margin: 40px;
+}
+
+.home .history .parallax
+{
+    background-image: url("../images/dafel-old.png");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+

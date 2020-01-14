@@ -38,6 +38,7 @@
 {
     text-align: start;
     padding: 25px 22px;
+    border-radius: 6px;
 }
 
 .home-product .row .flip-card-back p
@@ -88,3 +89,9 @@
     padding: 70px 130px;
     margin: 40px;
 }
+
+.home-product .row .flip-card-front img
+{
+    border-radius: 4px;
+}
+

@@ -1,0 +1,17 @@
+.company
+{
+    height: 1000px;
+    background-color: #fff;
+}
+
+.company .container .col-sm-12
+{
+    padding: 1% 24%;
+    height: 250px;
+}
+
+.company .container .flip-card-front
+{
+    border: 1px solid #484848;
+    border-radius: 5px !important;
+}
