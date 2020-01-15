@@ -6,12 +6,84 @@
 
 .company .container .col-sm-12
 {
-    padding: 1% 24%;
-    height: 250px;
+    padding: 10px 370px;
+    height: 345px;
+}
+.home .company .company-picture-center
+{
+    height: 230px;
+    margin: 0px 0px 0px 0px;
+    border-radius: 50%;
+    width: 260px;
 }
 
-.company .container .flip-card-front
+.home .company .company-picture img
 {
-    border: 1px solid #484848;
-    border-radius: 5px !important;
+    height: 230px;
+    margin: 0px 0px 0px 75px;
+    border-radius: 50%;
+    width: 260px;
+}
+
+.home .company .company-picture
+{
+    height: 300px;
+}
+
+.home .company .company-picture p
+{
+    width: 429px;
+    margin: -4px 0px 0px 15px;
+}
+
+.home .company .company-picture h4
+{
+    text-align: center;
+    margin: 3px 0px 5px 0px;
+}
+
+.home .company .company-picture i
+{
+    position: absolute;
+    margin: 4px 0px 0px 0px;
+
+}
+
+.home .company .company-picture .third-text-headquarters
+{
+    margin: 0px 0px 0px 140px;
+}
+
+.home .company .company-picture .second-text-headquarters
+{
+    margin: 0px 0px 0px 25px;
+}
+
+.home .company .company-picture .second-text-headquarters i
+{
+    margin: 4px 0px 0px -2px;
+}
+
+.company .container .company-line-one .col-sm-12
+{
+    top: -15%%;
+    left: 6%;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    padding: 92px 0;
+    position: relative;
+}
+
+.home .company .company-line-one i
+{
+    position: absolute;
+    margin: 4px 0px 0px 0px;
+
+}
+
+.home .company .company-line-one .second-text-headquarters p
+{
+    text-align: center;
+    margin: 0px 0px 0px 12px;
 }
