@@ -1,14 +1,9 @@
 .company
 {
-    height: 1000px;
+    height: 550px;
     background-color: #fff;
 }
 
-.company .container .col-sm-12
-{
-    padding: 10px 370px;
-    height: 345px;
-}
 .home .company .company-picture-center
 {
     height: 230px;
@@ -20,33 +15,30 @@
 .home .company .company-picture img
 {
     height: 230px;
-    margin: 0px 0px 0px 75px;
     border-radius: 50%;
     width: 260px;
 }
 
 .home .company .company-picture
 {
-    height: 300px;
+    height: 355px;
+
+}
+
+.home .company .company-picture
+{
+    text-align: center;
 }
 
 .home .company .company-picture p
 {
-    width: 429px;
-    margin: -4px 0px 0px 15px;
+    width: 350px;
 }
 
 .home .company .company-picture h4
 {
     text-align: center;
     margin: 3px 0px 5px 0px;
-}
-
-.home .company .company-picture i
-{
-    position: absolute;
-    margin: 4px 0px 0px 0px;
-
 }
 
 .home .company .company-picture .third-text-headquarters
@@ -64,26 +56,55 @@
     margin: 4px 0px 0px -2px;
 }
 
-.company .container .company-line-one .col-sm-12
+.company .container .headquarters .row
 {
-    top: -15%%;
-    left: 6%;
-    right: 0;
-    bottom: 0;
-    z-index: 1;
-    padding: 92px 0;
+    padding: 0px 0px 0px 385px;
+}
+
+.company .container .col-sm-12
+{
+    right: 0px;
+    bottom: 7px;
+    z-index: 0;
+    padding: 70px 0px;
     position: relative;
-}
-
-.home .company .company-line-one i
-{
-    position: absolute;
-    margin: 4px 0px 0px 0px;
-
-}
-
-.home .company .company-line-one .second-text-headquarters p
-{
     text-align: center;
-    margin: 0px 0px 0px 12px;
+}
+
+.home .company .company-line-one .cabo-frio h4
+{
+    padding: 0px 77px;
+}
+
+.home .company .company-line-one .macae h4
+{
+    padding: 0px 93px;
+}
+
+.home .company .company-description h1
+{
+    margin: 20px 0px 50px;
+    font-size: 50px;
+}
+
+.home .company .company-description p
+{
+    margin-bottom: 64px;
+    font-size: 24px;
+}
+
+.home .company .company-description a
+{
+    border-radius: 5px;
+    border-width: 2px;
+    font-size: 18px;
+    padding: 11px 24px;
+    background-color: darkorange;
+    color: white;
+    border-color: darkorange;
+}
+
+.home .company .row
+{
+    height: 450px;
 }

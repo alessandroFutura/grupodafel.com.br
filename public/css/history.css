@@ -5,7 +5,7 @@
 
 .home .history .text-history h2
 {
-    color: black;
+    color: #ffffff;
     font-size: 45px;
     padding: 40px 366px 20px;
     margin: 15px;
@@ -15,19 +15,19 @@
 .home .history .text-history p
 {
     font-size: 25px;
-    color: black;
+    color: white;
     text-align: center;
     padding: 35px 130px;
     margin: 40px;
 }
 
-.home .history .parallax
+.home .history .parallax-picture
 {
     background-image: url("../images/dafel-old.png");
+    background-color: rgba(255, 255, 0, 0.7);
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-
