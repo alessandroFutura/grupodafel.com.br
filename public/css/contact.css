@@ -2,3 +2,9 @@
 {
     background-color: #3F3E48;
 }
+
+.contact .row .contact-number
+{
+    color: white;
+    text-align: end;
+}

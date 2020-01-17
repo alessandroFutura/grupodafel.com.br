@@ -18,7 +18,19 @@
     color: white;
     text-align: center;
     padding: 35px 130px;
-    margin: 40px;
+    margin: 40px 0px 0px 80px;
+}
+
+.home .history .text-history a
+{
+    border-radius: 5px;
+    border-width: 2px;
+    font-size: 18px;
+    padding: 11px 24px;
+    background-color: darkorange;
+    color: white;
+    border-color: darkorange;
+    margin: 0px 0px 0px 45%;
 }
 
 .home .history .parallax-picture
@@ -30,4 +42,23 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.history-page
+{
+    height: 1000px;
+    background-color: white;
+}
+
+.history-page .container .row img
+{
+    height: 350px;
+    border-radius: 50%;
+    width: 390px;
+    margin: 20px 0px 0px 90%;
+}
+
+.history-page .container .col-sm-12
+{
+    margin-bottom: 20px;
 }
