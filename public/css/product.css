@@ -1,97 +1,75 @@
-.home-product .container
+.product .container
 {
     width: 1200px;
     background-color: #ffff
 }
 
-.home-product .product-picture
+.product .product-picture
 {
     height: 500px;
 }
 
-.home-product .text-product
+.product .text-product
 {
     height: 500px;
 
 }
 
-.home-product .row .product-picture
+.product .row .product-picture
 {
     height: 270px;
     width: 309px;
 }
 
-.home-product .row .text-product
+.product .row .text-product
 {
     height: 120px;
     font-size: 20px;
     padding: 20px 10px;
 }
 
-.home-product .row .flip-card-front
+.product .row .flip-card-front
 {
     border: 1px solid #484848;
     border-radius: 5px !important;
 }
 
-.home-product .row .flip-card-back
+.product .row .flip-card-back
 {
     text-align: start;
     padding: 25px 22px;
     border-radius: 6px;
 }
 
-.home-product .row .flip-card-back p
+.product .row .flip-card-back p
 {
     font-size: 16px;
 }
 
-.home-product .products .row .col-sm-4
+.product .products .row .col-sm-4
 {
     margin: 0px 0px 20px 0px;
 }
 
-.home-product .container .products-caption
+.product .container .products-caption
 {
     padding: 45px 130px;
     text-align: center;
     margin: 0px 0px 1px 0px;
 }
 
-.home-product .row .flip-card-back .product-button
+.product .row .flip-card-back .product-button
 {
     border-radius: 5px;
     border-width: 2px;
     color: white;
     font-size: 18px;
-    border-color: blue;
-    background-color: blue;
+    border-color: #474C55;
+    background-color: #474C55;
     padding: 10px;
 }
 
-.home .history
-{
-    background-color: #3F3E48;
-}
-
-.home .history .text-history h2
-{
-    color: white;
-    font-size: 45px;
-    padding: 20px 434px;
-    margin: 15px;
-}
-
-.home .history .text-history p
-{
-    font-size: 25px;
-    color: white;
-    text-align: center;
-    padding: 70px 130px;
-    margin: 40px;
-}
-
-.home-product .row .flip-card-front img
+.product .row .flip-card-front img
 {
     border-radius: 4px;
 }

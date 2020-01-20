@@ -105,7 +105,6 @@
 
 .product-research
 {
-    border: 2px solid rgba(255, 255, 255, 0.4) !important;
     text-align: center;
     width: 95px;
     height: 85px;
@@ -134,4 +133,14 @@
 .body .container .row .col-sm-4
 {
     margin-bottom: 15px;
+}
+
+.keyboard i
+{
+    color:white;
+}
+
+.keyboard p
+{
+    color: white;
 }

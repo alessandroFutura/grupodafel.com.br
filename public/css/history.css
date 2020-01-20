@@ -55,10 +55,34 @@
     height: 350px;
     border-radius: 50%;
     width: 390px;
-    margin: 20px 0px 0px 90%;
+    margin: 20px 0px 0px 31%;
 }
 
 .history-page .container .col-sm-12
 {
     margin-bottom: 20px;
+}
+
+.history-page .container .row .history-heading
+{
+    text-align: center;
+}
+
+.history-page .history-heading
+{
+    margin-top: 25px;
+}
+
+.history-page .text-one
+{
+    font-size: 20px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.history-page .text-two
+{
+    font-size: 20px;
+    margin-left: 25px;
+    margin-top: 10px;
 }

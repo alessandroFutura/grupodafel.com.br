@@ -3,8 +3,56 @@
     background-color: #3F3E48;
 }
 
+.contact h4
+{
+    margin-bottom: 20px;
+}
+
 .contact .row .contact-number
 {
     color: white;
     text-align: end;
+    font-size: 11px;
+    margin-top: 100px;
+}
+.contact .row .contact-teresopolis
+{
+    color: darkorange;
+}
+
+.contact .contact-social
+{
+    color: white;
+    text-align: end;
+    margin-top: 100px;
+}
+
+.contact .contact-social a
+{
+    color: white;
+}
+
+.contact .row .register
+{
+    color: white;
+    text-align: end;
+    font-size: 11px;
+    margin-top: 100px;
+}
+
+.contact .register a
+{
+    border-radius: 5px;
+    border-width: 2px;
+    font-size: 18px;
+    padding: 11px 24px;
+    background-color: darkorange;
+    color: white;
+    border-color: darkorange;
+}
+
+.contact .register p
+{
+    font-size: 15px;
+    margin-bottom: 30px;
 }
