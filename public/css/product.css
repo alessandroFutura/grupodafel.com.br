@@ -17,8 +17,8 @@
 
 .product .row .product-picture
 {
-    height: 270px;
     width: 309px;
+    height: 270px;
 }
 
 .product .row .text-product
@@ -53,20 +53,20 @@
 
 .product .container .products-caption
 {
-    padding: 45px 130px;
     text-align: center;
+    padding: 45px 130px;
     margin: 0px 0px 1px 0px;
 }
 
 .product .row .flip-card-back .product-button
 {
-    border-radius: 5px;
-    border-width: 2px;
     color: white;
+    padding: 10px;
     font-size: 18px;
+    border-width: 2px;
+    border-radius: 5px;
     border-color: #474C55;
     background-color: #474C55;
-    padding: 10px;
 }
 
 .product .row .flip-card-front img
@@ -80,37 +80,37 @@
     position: relative;
 }
 
-.product .search-text
-{
-    background-color: transparent;
-    border: 1px solid darkorange;
-    border-radius: 4px;
-    font-size: 16px;
-    padding: 9px 28px 9px 40px;
-    color: dimgrey;
-    width: 400px;
-    margin: 0px 5px 0px 0px;
-    height: 47px;
-}
-
 .product .search-bar .fa
 {
-    position: absolute;
     left: 95px;
     top: 40.5%;
     font-size: 18px;
     color: darkorange;
+    position: absolute;
+}
+
+.product .search-text
+{
+    width: 400px;
+    height: 47px;
+    color: dimgrey;
+    font-size: 16px;
+    border-radius: 4px;
+    margin: 0px 5px 0px 0px;
+    padding: 9px 28px 9px 40px;
+    border: 1px solid darkorange;
+    background-color: transparent;
 }
 
 .product .search-bar button
 {
-    border-radius: 5px;
-    border-width: 2px;
-    font-size: 18px;
-    padding: 11px 24px;
-    background-color: darkorange;
     color: white;
+    font-size: 18px;
+    border-width: 2px;
+    border-radius: 5px;
+    padding: 11px 24px;
     border-color: darkorange;
+    background-color: darkorange;
 }
 
 .product .search
@@ -120,8 +120,8 @@
 
 .product .row h4
 {
-    text-align: center;
     margin-top: 35px;
+    text-align: center;
 }
 
 .product .product-row
@@ -138,10 +138,10 @@
 {
     width: 315px;
     height: 390px;
-    background-color: transparent;
+    border-radius: 7px;
     perspective: 1000px;
     border: 1px solid #000000;
-    border-radius: 7px;
+    background-color: transparent;
 }
 
 .product .product-row .product-card .product-picture-page img
@@ -161,4 +161,13 @@
     margin-left: 7px;
     margin-right: 7px;
     text-align: center;
+}
+
+.product .title-product
+{
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: darkorange;
 }

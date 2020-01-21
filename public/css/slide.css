@@ -26,34 +26,35 @@
     right: 0;
     bottom: 0;
     z-index: 1;
-    padding: 92px 0;
+    padding: 150px 0;
     position: absolute;
 }
 
 .top-text
 {
-    text-align: start;
-    width: 176px;
-    font-size: larger;
+    width: 95%;
     color: white;
     margin: 20px 0;
+    font-size: 40px;
+    text-align: start;
 }
 
 .middle-text
 {
-    text-align: start;
-    width: 478px;
+    width: 90%;
     color: white;
     margin: 20px 0;
+    font-size: 3rem;
+    text-align: start;
 }
 
 .final-text
 {
-    text-align: start;
-    width: 302px;
+    width: 95%;
     color: white;
-    font-size: 20px;
     margin: 20px 0;
+    font-size: 25px;
+    text-align: start;
 }
 
 .search
@@ -69,35 +70,35 @@
 
 .search-text
 {
-    background-color: transparent;
-    border: 1px solid #fff;
-    border-radius: 4px;
-    font-size: 16px;
-    padding: 9px 28px 9px 40px;
     color: #ddd;
     width: 400px;
-    margin: 0px 5px 0px 0px;
     height: 47px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #fff;
+    margin: 0px 5px 0px 0px;
+    padding: 9px 28px 9px 40px;
+    background-color: transparent;
 }
 
 .search-bar .fa
 {
-    position: absolute;
     left: 1%;
     top: 40.5%;
-    font-size: 18px;
     color: white;
+    font-size: 18px;
+    position: absolute;
 }
 
 .search-bar button
 {
-    border-radius: 5px;
-    border-width: 2px;
-    font-size: 18px;
-    padding: 11px 24px;
-    background-color: darkorange;
     color: white;
+    font-size: 18px;
+    border-width: 2px;
+    padding: 11px 24px;
+    border-radius: 5px;
     border-color: darkorange;
+    background-color: darkorange;
 }
 
 .search-bar button:hover
@@ -107,29 +108,31 @@
 
 .product-research
 {
-    text-align: center;
     width: 95px;
     height: 85px;
+    text-align: center;
 }
 
 .product-research .fa
 {
-    font-size: 40px;
     padding: 10px;
+    font-size: 40px;
 }
 
-.keyboard
+.product-segment
 {
-    border: 2px solid rgba(255, 255, 255, 0.4) !important;
+    width: 110px;
+    height: 90px;
     text-align: center;
-    width: 95px;
-    height: 85px;
+    border-radius: 10px;
+    border: 3px solid rgba(255, 255, 255, 0.4) !important;
+
 }
 
-.keyboard .fa
+.product-segment .fa
 {
     font-size: 40px;
-    padding: 10px;
+    padding: 10px 10px 0px;
 }
 
 .body .container .row .col-sm-4
@@ -137,12 +140,22 @@
     margin-bottom: 15px;
 }
 
-.keyboard i
+.product-segment i
 {
-    color:white;
+    color: darkorange;
 }
 
-.keyboard p
+.product-segment i:hover
+{
+    color: white;
+}
+
+.product-segment a:hover
+{
+    text-decoration: none;
+}
+
+.product-segment p
 {
     color: white;
 }
