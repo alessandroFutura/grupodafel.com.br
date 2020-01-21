@@ -6,7 +6,7 @@
 
 .home .company .company-picture-center
 {
-    height: 230px;
+    height: 260px;
     margin: 0px 0px 0px 0px;
     border-radius: 50%;
     width: 260px;
@@ -14,7 +14,7 @@
 
 .home .company .company-picture img
 {
-    height: 230px;
+    height: 260px;
     border-radius: 50%;
     width: 260px;
 }

@@ -74,3 +74,91 @@
     border-radius: 4px;
 }
 
+.product .search-bar
+{
+    margin: 0;
+    position: relative;
+}
+
+.product .search-text
+{
+    background-color: transparent;
+    border: 1px solid darkorange;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 9px 28px 9px 40px;
+    color: dimgrey;
+    width: 400px;
+    margin: 0px 5px 0px 0px;
+    height: 47px;
+}
+
+.product .search-bar .fa
+{
+    position: absolute;
+    left: 95px;
+    top: 40.5%;
+    font-size: 18px;
+    color: darkorange;
+}
+
+.product .search-bar button
+{
+    border-radius: 5px;
+    border-width: 2px;
+    font-size: 18px;
+    padding: 11px 24px;
+    background-color: darkorange;
+    color: white;
+    border-color: darkorange;
+}
+
+.product .search
+{
+    padding: 40px 85px;
+}
+
+.product .row h4
+{
+    text-align: center;
+    margin-top: 35px;
+}
+
+.product .product-row
+{
+    margin-bottom: 30px;
+}
+
+.product .search-product
+{
+    margin-bottom: 30px;
+}
+
+.product .product-row .product-card
+{
+    width: 315px;
+    height: 390px;
+    background-color: transparent;
+    perspective: 1000px;
+    border: 1px solid #000000;
+    border-radius: 7px;
+}
+
+.product .product-row .product-card .product-picture-page img
+{
+    width: 312px;
+    height: 270px;
+    border-radius: 7px;
+}
+
+.product .product-row .product-card .text-product-picture
+{
+    text-align: center;
+}
+
+.product .product-row .product-card .product-tag
+{
+    margin-left: 7px;
+    margin-right: 7px;
+    text-align: center;
+}
