@@ -11,8 +11,8 @@
 .contact .row .contact-number
 {
     color: white;
-    text-align: end;
     font-size: 11px;
+    text-align: end;
     margin-top: 100px;
 }
 .contact .row .contact-teresopolis
@@ -35,20 +35,20 @@
 .contact .row .register
 {
     color: white;
-    text-align: end;
     font-size: 11px;
+    text-align: end;
     margin-top: 100px;
 }
 
 .contact .register a
 {
-    border-radius: 5px;
-    border-width: 2px;
-    font-size: 18px;
-    padding: 11px 24px;
-    background-color: darkorange;
     color: white;
+    font-size: 18px;
+    border-width: 2px;
+    border-radius: 5px;
+    padding: 11px 24px;
     border-color: darkorange;
+    background-color: darkorange;
 }
 
 .contact .register p

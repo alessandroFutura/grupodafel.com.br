@@ -6,17 +6,17 @@
 
 .home .company .company-picture-center
 {
-    height: 260px;
-    margin: 0px 0px 0px 0px;
-    border-radius: 50%;
     width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    margin: 0px 0px 0px 0px;
 }
 
 .home .company .company-picture img
 {
+    width: 260px;
     height: 260px;
     border-radius: 50%;
-    width: 260px;
 }
 
 .home .company .company-picture
@@ -83,25 +83,25 @@
 
 .home .company .company-description h1
 {
-    margin: 20px 0px 50px;
     font-size: 50px;
+    margin: 20px 0px 50px;
 }
 
 .home .company .company-description p
 {
-    margin-bottom: 64px;
     font-size: 24px;
+    margin-bottom: 64px;
 }
 
 .home .company .company-description a
 {
-    border-radius: 5px;
-    border-width: 2px;
-    font-size: 18px;
-    padding: 11px 24px;
-    background-color: darkorange;
     color: white;
+    font-size: 18px;
+    border-width: 2px;
+    padding: 11px 24px;
+    border-radius: 5px;
     border-color: darkorange;
+    background-color: darkorange;
 }
 
 .home .company .row

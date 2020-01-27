@@ -55,10 +55,10 @@
 
 .home .company .flip-card
 {
-    background-color: transparent;
-    perspective: 1000px; /* Remove this if you don't want the 3D effect */
-    margin: 10px;
     color: black;
+    margin: 10px;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    background-color: transparent;
 }
 
 .home .company .flip-card-back
