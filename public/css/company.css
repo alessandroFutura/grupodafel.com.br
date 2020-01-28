@@ -22,7 +22,6 @@
 .home .company .company-picture
 {
     height: 355px;
-
 }
 
 .home .company .company-picture
@@ -64,8 +63,8 @@
 .company .container .col-sm-12
 {
     right: 0px;
-    bottom: 7px;
     z-index: 0;
+    bottom: 7px;
     padding: 70px 0px;
     position: relative;
     text-align: center;

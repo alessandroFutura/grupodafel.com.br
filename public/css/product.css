@@ -53,14 +53,14 @@
 
 .product .products .row .col-sm-4
 {
-    margin: 0px 0px 20px 0px;
+    margin: 0 0 20px 0;
 }
 
 .product .container .products-caption
 {
+    margin: 0 0 1px 0;
     text-align: center;
     padding: 45px 130px;
-    margin: 0px 0px 1px 0px;
 }
 
 .product .row .flip-card-back .product-button
@@ -100,8 +100,8 @@
     height: 47px;
     color: white;
     font-size: 16px;
+    margin: 0 5px 0 0;
     border-radius: 4px;
-    margin: 0px 5px 0px 0px;
     padding: 9px 28px 9px 40px;
     border: 1px solid #3F3E48;
     background-color: #3F3E48;
@@ -178,6 +178,12 @@
     background-color: darkorange;
 }
 
+.product .select-category .category
+{
+    padding: 30px 0;
+    background: #fff;
+}
+
 .product .select-category .category .category-box-title
 {
     color: white;
@@ -188,3 +194,117 @@
     border-color: darkorange;
     background-color: darkorange;
 }
+
+.product .select-category .list-links li
+{
+    position: relative;
+    padding: 20px 30px 0;
+    list-style-type: none;
+}
+
+.product .select-category .list-links a
+{
+    color: #131313;
+}
+
+.product .select-category .list-links a:hover
+{
+    text-decoration: none;
+}
+
+.product .select-category .mark
+{
+    padding: 30px 0;
+    background: #fff;
+}
+
+.product .select-category .mark .mark-box-title
+{
+    color: white;
+    width: 245px;
+    padding: 2px 2px;
+    text-align: center;
+    border-radius: 5px;
+    border-color: darkorange;
+    background-color: darkorange;
+}
+
+.product .select-category .mark .mark-filter
+{
+    width: 96%;
+    height: 34px;
+    margin-top: 15px;
+    padding: 6px 10px;
+    margin-bottom: 15px;
+}
+
+.product .select-category .mark .mark-filter-button
+{
+    margin-bottom: 15px;
+
+}
+
+.product .select-category .mark .mark-filter-button button
+{
+    color: white;
+    width: 90px;
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid darkorange;
+    background-color: darkorange;
+}
+
+.product .select-category .mark .mark-filter-button button:hover
+{
+    background: white;
+    border-color: white;
+    color: #131313;
+    border: 1px solid #131313;
+}
+
+.product .select-product .profession .profession-box-title
+{
+    color: white;
+    width: 245px;
+    padding: 2px 2px;
+    text-align: center;
+    border-radius: 5px;
+    border-color: darkorange;
+    background-color: darkorange;
+}
+
+.product .catalog .order-product
+{
+    padding: 30px 0;
+}
+
+.product .catalog .product-catalog img
+{
+    width: 268px;
+    height: 268px;
+}
+
+.product .catalog .product-catalog p
+{
+    margin: 0;
+    padding: 15px 0 0 0;
+}
+
+.product .catalog .product-catalog .product-name
+{
+    font-weight: 500;
+}
+
+.product .catalog .product-catalog .product-price
+{
+    font-weight: 500;
+    font-size: 21px;
+}
+
+.product .select-product
+{
+    height: 1200px;
+}
+

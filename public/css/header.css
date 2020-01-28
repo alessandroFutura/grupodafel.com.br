@@ -28,8 +28,8 @@ header .container .menu a
 {
     color: #fff;
     padding: 34px 20px;
-    display: inline-block;
     text-decoration: none;
+    display: inline-block;
     transition: all .3s ease;
 }
 
