@@ -177,3 +177,14 @@
     margin-bottom: 20px;
     background-color: darkorange;
 }
+
+.product .select-category .category .category-box-title
+{
+    color: white;
+    width: 245px;
+    padding: 2px 2px;
+    text-align: center;
+    border-radius: 5px;
+    border-color: darkorange;
+    background-color: darkorange;
+}
