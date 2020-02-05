@@ -10,10 +10,10 @@
 /* This container is needed to position the front and back side */
 .flip-card-inner
 {
-    position: relative;
     width: 100%;
     height: 100%;
     text-align: center;
+    position: relative;
     transition: transform 0.8s;
     transform-style: preserve-3d;
 }
@@ -37,13 +37,13 @@
 .flip-card-front
 {
     background-color: #ffffff;
-    color: black;
+    color: #474C55;
 }
 
 /* Style the back side */
 .flip-card-back
 {
-    background-color: darkorange;
+    background-color: #CF5300;
     transform: rotateY(180deg);
 }
 
@@ -55,7 +55,7 @@
 
 .home .company .flip-card
 {
-    color: black;
+    color: #474C55;
     margin: 10px;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
     background-color: transparent;

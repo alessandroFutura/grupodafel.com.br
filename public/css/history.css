@@ -5,17 +5,17 @@
 
 .home .history .text-history h2
 {
+    margin: 15px;
     color: #ffffff;
     font-size: 45px;
-    padding: 40px 366px 20px;
-    margin: 15px;
     text-align: center;
+    padding: 40px 366px 20px;
 }
 
 .home .history .text-history p
 {
-    font-size: 25px;
     color: white;
+    font-size: 25px;
     text-align: center;
     padding: 35px 130px;
     margin: 40px 0px 0px 80px;
@@ -23,38 +23,37 @@
 
 .home .history .text-history a
 {
-    border-radius: 5px;
-    border-width: 2px;
-    font-size: 18px;
-    padding: 11px 24px;
-    background-color: darkorange;
     color: white;
-    border-color: darkorange;
+    font-size: 18px;
+    border-width: 2px;
+    border-radius: 5px;
+    padding: 11px 24px;
     margin: 0px 0px 0px 45%;
+    border-color: #CF5300;
+    background-color: #CF5300;
 }
 
 .home .history .parallax-picture
 {
-    background-image: url("../images/dafel-old.png");
-    background-color: rgba(255, 255, 0, 0.7);
     min-height: 500px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 0, 0.7);
+    background-image: url("../images/dafel-old.png");
 }
 
 .history-page
 {
-    height: 1000px;
     background-color: white;
 }
 
 .history-page .container .row img
 {
+    width: 390px;
     height: 350px;
     border-radius: 50%;
-    width: 390px;
     margin: 20px 0px 0px 31%;
 }
 
@@ -76,13 +75,13 @@
 .history-page .text-one
 {
     font-size: 20px;
-    margin-left: 25px;
     margin-top: 10px;
+    margin-left: 25px;
 }
 
 .history-page .text-two
 {
     font-size: 20px;
-    margin-left: 25px;
     margin-top: 10px;
+    margin-left: 25px;
 }

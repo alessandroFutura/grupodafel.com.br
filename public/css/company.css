@@ -1,22 +1,18 @@
 .company
 {
-    height: 550px;
     background-color: #fff;
 }
 
 .home .company .company-picture-center
 {
-    width: 260px;
+    margin: 0;
     height: 260px;
-    border-radius: 50%;
-    margin: 0px 0px 0px 0px;
 }
 
 .home .company .company-picture img
 {
     width: 260px;
     height: 260px;
-    border-radius: 50%;
 }
 
 .home .company .company-picture
@@ -26,6 +22,7 @@
 
 .home .company .company-picture
 {
+    width: 350px;
     text-align: center;
 }
 
@@ -37,53 +34,58 @@
 .home .company .company-picture h4
 {
     text-align: center;
-    margin: 3px 0px 5px 0px;
+    margin: 3px 0 5px 0;
+}
+
+.home .company .text-company
+{
+    height: 260px;
 }
 
 .home .company .company-picture .third-text-headquarters
 {
-    margin: 0px 0px 0px 140px;
+    margin: 0 0 0 140px;
 }
 
 .home .company .company-picture .second-text-headquarters
 {
-    margin: 0px 0px 0px 25px;
+    margin: 0 0 0 25px;
 }
 
 .home .company .company-picture .second-text-headquarters i
 {
-    margin: 4px 0px 0px -2px;
+    margin: 4px 0 0 -2px;
 }
 
 .company .container .headquarters .row
 {
-    padding: 0px 0px 0px 385px;
+    padding: 0 0 0 385px;
 }
 
 .company .container .col-sm-12
 {
-    right: 0px;
+    right: 0;
     z-index: 0;
     bottom: 7px;
-    padding: 70px 0px;
+    padding: 70px 0;
     position: relative;
     text-align: center;
 }
 
-.home .company .company-line-one .cabo-frio h4
+.home .company .cabo-frio h4
 {
-    padding: 0px 77px;
+    padding: 0 77px;
 }
 
-.home .company .company-line-one .macae h4
+.home .company .macae h4
 {
-    padding: 0px 93px;
+    padding: 0 93px;
 }
 
 .home .company .company-description h1
 {
     font-size: 50px;
-    margin: 20px 0px 50px;
+    margin: 20px 0 50px;
 }
 
 .home .company .company-description p
@@ -99,8 +101,8 @@
     border-width: 2px;
     padding: 11px 24px;
     border-radius: 5px;
-    border-color: darkorange;
-    background-color: darkorange;
+    border-color: #CF5300;
+    background-color: #CF5300;
 }
 
 .home .company .row
