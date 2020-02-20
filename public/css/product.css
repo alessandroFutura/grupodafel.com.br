@@ -6,6 +6,7 @@
 
 .product .search-product .container
 {
+    height: 110px;
     background-color: #CF5300;
 }
 
@@ -49,6 +50,11 @@
 .product .row .flip-card-back p
 {
     font-size: 16px;
+}
+
+.product .row .flip-card
+{
+    margin: 0 18px;
 }
 
 .product .products .row .col-sm-4
@@ -123,9 +129,11 @@
     padding: 35px 165px;
 }
 
-.product .row h4
+.product .search-product .row h4
 {
     color: white;
+    padding: 10px 0;
+    font-size: 23px;
     margin-top: 35px;
     text-align: center;
 }
@@ -176,7 +184,7 @@
     padding: 20px;
     text-align: center;
     margin-bottom: 20px;
-    background-color: #CF5300;
+    background-color: #b1501a;
 }
 
 .product .select-category .category
@@ -322,4 +330,9 @@
 .product .catalog .pagination .pagination-number a
 {
     color: black;
+}
+
+.margin-top-6
+{
+    margin-top: 60px;
 }

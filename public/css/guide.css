@@ -1,5 +1,7 @@
 .guide
 {
     height: 400px;
+    background-size: cover;
+    background-position: center;
     background-image: url("../images/slide/image-01.jpg");
 }

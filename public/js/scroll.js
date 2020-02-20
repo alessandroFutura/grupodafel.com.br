@@ -1,6 +1,6 @@
 $(window).on('load', function(){
     // Please run it with window.onload, not with document.ready
-    initSmoothScrolling('.block','smoothscroll');
+    initSmoothScrolling('.provider','smoothscroll');
 });
 
 function initSmoothScrolling(container,animation){

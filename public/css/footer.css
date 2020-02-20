@@ -1,6 +1,7 @@
 .footer
 {
     background-color: #3F3E48;
+    border-top:3px solid #CF5300;
 }
 
 .footer h4
@@ -12,10 +13,16 @@
 {
     color: white;
     font-size: 11px;
-    text-align: end;
+    text-align: center;
     margin-top: 100px;
 }
+
 .footer .row .contact-teresopolis
+{
+    margin-bottom: 17px;
+}
+
+.footer .row .contact-teresopolis a
 {
     color: darkorange;
 }
@@ -35,8 +42,8 @@
 .footer .row .register
 {
     color: white;
-    font-size: 11px;
     text-align: end;
+    font-size: 11px;
     margin-top: 100px;
 }
 
@@ -44,10 +51,8 @@
 {
     color: white;
     font-size: 18px;
-    border-width: 2px;
     border-radius: 5px;
     padding: 11px 24px;
-    border-color: #CF5300;
     background-color: #CF5300;
 }
 
@@ -57,18 +62,17 @@
     margin-bottom: 30px;
 }
 
-.block
+.provider
 {
     width: 100%;
-    height: 70px;
+    height: 100px;
     overflow: hidden;
-    background: #CF5300;
+    background: #ececec;
 }
 .animation
 {
-    width: auto;
-    height: 100px;
     font-size: 0;
+    height: 100px;
 }
 
 .animation div
@@ -76,24 +80,23 @@
     width: auto;
     float: none;
     padding: 0 10px;
+    margin: 23px 7px;
     display: inline-block;
-    margin: 10px 0 55px 0;
 }
 
-.block .animation img
+.provider .animation div,
+.provider .animation img
 {
-    filter: gray;
-    height: 50px;
-    width: 100px;
-    display: block;
-    transition: .3s;
-    max-width: 300px;
-    filter: grayscale(100%);
+    width: 200px;
+    height: 65px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
     -webkit-filter: grayscale(100%);
 }
 
-.block .animation img:hover
+.title-provider
 {
-    filter: none;
-    -webkit-filter: none;
+    color: #CF5300;
+    text-align: center;
 }
