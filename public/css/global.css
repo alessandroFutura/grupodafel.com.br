@@ -12,7 +12,7 @@ body .container
     width: 1200px;
 }
 
-button.btn
+.categories .btn
 {
     color: #fff;
     display: none;
@@ -23,8 +23,17 @@ button.btn
     background-color: transparent;
 }
 
-button.btn:hover
+.categories .btn:hover
 {
     color: orange;
     border-color: orange;
+}
+
+@media (max-width: 767px)
+{
+    .categories .btn
+    {
+        display: inline-block;
+        padding: 7px 5px;
+    }
 }

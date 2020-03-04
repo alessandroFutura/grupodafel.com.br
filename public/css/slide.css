@@ -183,3 +183,26 @@
     animation-play-state: running;
     animation-name: moveFromLeft;
 }
+
+@media (max-width: 767px)
+{
+    .features .segment
+    {
+        display: none;
+    }
+
+    .body .top-text
+    {
+        display: none;
+    }
+
+    .body .middle-text
+    {
+        display: none;
+    }
+
+    .body .final-text
+    {
+        display: none;
+    }
+}

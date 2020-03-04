@@ -14,3 +14,7 @@ Global = {
         });
     }
 };
+
+$('button').on('click',function(){
+    $('#header-category').toggleClass('visible');
+}); //Efeito do categoria mobile//
