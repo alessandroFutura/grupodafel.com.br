@@ -80,7 +80,7 @@
     width: auto;
     float: none;
     padding: 0 10px;
-    margin: 23px 7px;
+    margin: 23px 20px;
     display: inline-block;
 }
 
@@ -134,13 +134,14 @@
 
     .provider
     {
-        height: 70px;
+        height: 80px;
     }
 
     .provider .animation div,
     .provider .animation img
     {
-        height: 40px;
-        width: 70px;
+        height: 50px;
+        width: 80px;
     }
+
 }

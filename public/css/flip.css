@@ -67,3 +67,11 @@
     transform: rotateY(180deg);
     perspective: 1000px;
 }
+
+@media (max-width: 767px)
+{
+    .flip-card:hover .flip-card-inner
+    {
+        transform: none;
+    }
+}

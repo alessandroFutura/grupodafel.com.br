@@ -1,8 +1,3 @@
-.history
-{
-    height: 800px;
-}
-
 .home .history .text-history h2
 {
     margin: 15px;
@@ -105,4 +100,44 @@
     font-size: 20px;
     margin-top: 10px;
     margin-left: 25px;
+}
+
+@media (max-width: 767px)
+{
+    .home .history
+    {
+        height: 430px !important;
+    }
+
+    .home .history .text-history h2
+    {
+        margin: 0;
+        padding: 0;
+        font-size: 30px;
+    }
+
+    .home .history .text-history p
+    {
+        padding: 0;
+        font-size: 18px;
+        margin: 28px 0;
+    }
+
+    .home .history .text-history a
+    {
+        font-size: 18px;
+        padding: 11px 24px;
+        margin: 0;
+    }
+
+    .home .history .parallax-picture
+    {
+        min-height: 430px;
+    }
+
+    .home .history .text-history
+    {
+        height: 100%;
+        text-align: center;
+    }
 }

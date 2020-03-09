@@ -51,9 +51,42 @@ header .container .categories
     bottom: 0;
     width: 100%;
     position: fixed;
+    overflow: hidden;
     transition: all .3s ease;
     background-color: #CF5300;
     box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+}
+
+.menu-mobile .segment-menu
+{
+    margin: 15px 0;
+}
+
+.menu-mobile .page-menu
+{
+    background: #4e4e4e;
+    text-align: center;
+}
+
+.menu-mobile .page-menu .page-mobile
+{
+    padding: 20px 0;
+}
+
+.menu-mobile .page-menu .page-mobile a
+{
+    color: white;
+}
+
+.menu-mobile .contact-social-menu
+{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.menu-mobile .contact-social-menu a
+{
+    color: white;
 }
 
 @media (max-width: 767px)
@@ -72,4 +105,5 @@ header .container .categories
     {
         left: 0;
     }
+
 }

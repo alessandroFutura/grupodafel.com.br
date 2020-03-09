@@ -32,7 +32,7 @@
 
 .home .company .text-company
 {
-    height: 260px;
+    height: 200px;
 }
 
 .home .company .text-company p
@@ -96,32 +96,55 @@
 .company .title-company
 {
     width: 100%;
+    color: white;
     padding: 20px;
     text-align: center;
-    background: #ececec;
+    background: #b1501a;
     margin-bottom: 40px;
-    border-top: 3px solid #CF5300;
 }
 
 .home .company .company-description h1
 {
-    font-size: 50px;
-    margin: 20px 0 30px;
+font-size: 50px;
+margin: 20px 0 30px;
 }
 
 .home .company .company-description p
 {
-    font-size: 24px;
-    margin-bottom: 45px;
+font-size: 24px;
+margin-bottom: 45px;
 }
 
 .home .company .company-description a
 {
-    color: white;
-    font-size: 18px;
-    border-width: 2px;
-    padding: 11px 24px;
-    border-radius: 5px;
-    border-color: #CF5300;
-    background-color: #CF5300;
+color: white;
+font-size: 18px;
+border-width: 2px;
+padding: 11px 24px;
+border-radius: 5px;
+border-color: #CF5300;
+background-color: #CF5300;
+}
+
+@media (max-width: 767px)
+{
+.home .company
+    {
+        height: 100% !important;
+    }
+
+    .home .company .company-description
+    {
+        height: 100%;
+    }
+
+    .home .company .headquarters
+    {
+        display: none;
+    }
+
+    .home .company .title-company h2
+    {
+        font-size: 26px;
+    }
 }

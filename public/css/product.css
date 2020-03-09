@@ -31,13 +31,17 @@
 {
     height: 120px;
     font-size: 20px;
-    padding: 20px 10px;
 }
 
 .product .row .flip-card-front
 {
     border: 1px solid #484848;
     border-radius: 5px !important;
+}
+
+.product .row .flip-card-front .button-product-mobile
+{
+    display: none;
 }
 
 .product .row .flip-card-back
@@ -335,4 +339,73 @@
 .margin-top-6
 {
     margin-top: 60px;
+}
+
+.product .row .flip-card-front .button-product-mobile /*Ativado somente para mobile*/
+{
+    width: 60px;
+    color: white;
+    display: none;
+    margin: 0 58px;
+    font-size: 15px;
+    padding: 5px 6px;
+    border-radius: 5px;
+    border-color: #CF5300;
+    background-color: #CF5300;
+}
+
+.home .product .flip-card-front .home-text-product
+{
+    text-align: -webkit-center;
+}
+
+@media (max-width: 767px)
+{
+    .margin-top-6
+    {
+        margin-top: 0;
+    }
+
+    .product .row .flip-card
+    {
+        width: 90%;
+        height: 120px;
+    }
+
+    .product .row .flip-card-front
+    {
+        width: 100%;
+        border: none;
+        display: flex;
+    }
+
+    .product .row .product-picture
+    {
+        min-width: 130px;
+        max-height: 118px;
+    }
+
+    .product .row .flip-card-front .button-product-mobile
+    {
+        display: flex;
+    }
+
+    .product .row .flip-card-front h6
+    {
+        padding: 0;
+        height: auto;
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
+
+    .product .flip-card .flip-card-inner
+    {
+        transform: none;
+    }
+
+    .home .product .flip-card-front .home-text-produc
+    {
+        width: 55%;
+    }
+
 }

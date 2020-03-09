@@ -15,6 +15,10 @@ Global = {
     }
 };
 
-$('button').on('click',function(){
+$("#button-category").on('click',function(){
     $('#header-category').toggleClass('visible');
 }); //Efeito do categoria mobile//
+
+// $("#button-category").click(function(){
+//     $("#header-categoryl").toggleClass('visible');
+// }); //Efeito do categoria mobile//
