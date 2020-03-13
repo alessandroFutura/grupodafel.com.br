@@ -5,3 +5,11 @@
     background-position: center;
     background-image: url("../images/slide/image-01.jpg");
 }
+
+@media (max-width: 767px)
+{
+    .guide
+    {
+        height: 180px;
+    }
+}

@@ -140,8 +140,12 @@
     .provider .animation div,
     .provider .animation img
     {
-        height: 50px;
-        width: 80px;
+        height: 90px;
+        width: 90px;
     }
 
+    .animation div
+    {
+        margin: 0 20px;
+    }
 }

@@ -29,6 +29,11 @@ body .container
     border-color: orange;
 }
 
+.fixed-bottom-filter
+{
+    overflow: hidden;
+}
+
 @media (max-width: 767px)
 {
     .categories .btn

@@ -17,8 +17,5 @@ Global = {
 
 $("#button-category").on('click',function(){
     $('#header-category').toggleClass('visible');
+    $('body').toggleClass('fixed-bottom-filter');
 }); //Efeito do categoria mobile//
-
-// $("#button-category").click(function(){
-//     $("#header-categoryl").toggleClass('visible');
-// }); //Efeito do categoria mobile//

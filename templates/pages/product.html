@@ -24,6 +24,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-3">
+                    <div class="button-filter-mobile">
+                        <button id="button-filter" class="btn">
+                            <i class="fa fa-filter"></i> Filtros
+                        </button>
+                    </div>
                     <div class="select-category">
                         <div class="category">
                             <div class="category-box-title">
@@ -132,7 +137,7 @@
                         </div>
                         <div class="product-catalog">
                             <div class="row">
-                                <div class="col-sm-4">
+                                <div class="col-sm-4 col-12">
                                     <div class="product-description">
                                         <img src="images/botina.png">
                                         <p class="product-name">
@@ -140,7 +145,7 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="col-sm-4">
+                                <div class="col-sm-4 col-12">
                                     <div class="product-description">
                                         <img src="images/botina.png">
                                         <p class="product-name">
@@ -148,7 +153,7 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="col-sm-4">
+                                <div class="col-sm-4 col-12">
                                     <div class="product-description">
                                         <img src="images/botina.png">
                                         <p class="product-name">
@@ -156,7 +161,7 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="col-sm-4">
+                                <div class="col-sm-4 col-12">
                                     <div class="product-description">
                                         <img src="images/botina.png">
                                         <p class="product-name">
@@ -164,7 +169,7 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="col-sm-4">
+                                <div class="col-sm-4 col-12">
                                     <div class="product-description">
                                         <img src="images/botina.png">
                                         <p class="product-name">
@@ -172,7 +177,7 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="col-sm-4">
+                                <div class="col-sm-4 col-12">
                                     <div class="product-description">
                                         <img src="images/botina.png">
                                         <p class="product-name">
@@ -180,7 +185,7 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="col-sm-4">
+                                <div class="col-sm-4 col-12">
                                     <div class="product-description">
                                         <img src="images/botina.png">
                                         <p class="product-name">
@@ -188,7 +193,7 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="col-sm-4">
+                                <div class="col-sm-4 col-12">
                                     <div class="product-description">
                                         <img src="images/botina.png">
                                         <p class="product-name">
@@ -196,7 +201,7 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="col-sm-4">
+                                <div class="col-sm-4 col-12">
                                     <div class="product-description">
                                         <img src="images/botina.png">
                                         <p class="product-name">
@@ -212,7 +217,7 @@
                                     1-9 Produto (S) de 9
                                 </p>
                             </div>
-                            <div class="col-sm-4"></div>
+                            <div class="col-sm-4 d-none d-md-block"></div>
                             <div class="col-sm-4">
                                 <div class="pagination-number">
                                     <a href="/product"><i class="fa fa-angle-left"></i>Anterior</a>
@@ -220,6 +225,198 @@
                                     <a href="/product">2</a>
                                     <a href="/product">3</a>
                                     <a href="/product">Proximo<i class="fa fa-angle-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="page-filter" class="page-filter">
+                    <div class="title-filter">
+                        <div class="title-filter-text">
+                            <h2>Filtros</h2>
+                        </div>
+                        <div class="title-filter-close">
+                            <button id="button-filter-close" class="button-filter-close">
+                                <i class="fa fa-times"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="accordion" id="accordion">
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                                <div class="panel-heading ph-orange" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Pesquisar
+                                    <i class="fa fa-sort-desc" aria-hidden="true"></i>
+                                    <i class="fa fa-sort-asc" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                                <div class="card-body">
+                                    <div class="panel-body">
+                                        <input type="text" name="product_search" placeholder="Pesquisar">
+                                        <button id="button-clear" class="btn btn-empty-primary">
+                                            <i class="fa fa-times"></i> Limpar
+                                        </button>
+                                        <button id="button-search" class="btn btn-empty-primary">
+                                            <i class="fa fa-search"></i> Pesquisar
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <div class="panel-heading ph-orange collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Ordenar
+                                    <i class="fa fa-sort-desc" aria-hidden="true"></i>
+                                    <i class="fa fa-sort-asc" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                                <div class="card-body">
+                                    <div class="panel-body">
+                                        <li>
+                                            <a  class="Acessorios" href="product"> Acessorios </a>
+                                        </li>
+                                        <li>
+                                            <a  class="Acessorios" href="product"> Aluminio </a>
+                                        </li>
+                                        <li>
+                                            <a  class="Acessorios" href="product"> EPI </a>
+                                        </li>
+                                        <li>
+                                            <a  class="Acessorios" href="product"> Ferramentas </a>
+                                        </li>
+                                        <li>
+                                            <a  class="Acessorios" href="product"> Ferro </a>
+                                        </li>
+                                        <li>
+                                            <a  class="Acessorios" href="product"> Maquinas </a>
+                                        </li>
+                                        <li>
+                                            <a  class="Acessorios" href="product"> Fixação </a>
+                                        </li>
+                                        <li>
+                                            <a  class="Acessorios" href="product"> Vidro </a>
+                                        </li>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingTree">
+                                <div class="panel-heading ph-orange collapsed" data-toggle="collapse" data-target="#collapseTree" aria-expanded="false" aria-controls="collapseTree">
+                                    Grupo de Produtos
+                                    <i class="fa fa-sort-desc" aria-hidden="true"></i>
+                                    <i class="fa fa-sort-asc" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <div id="collapseTree" class="collapse" aria-labelledby="headingTree" data-parent="#accordion">
+                                <div class="card-body">
+                                    <div class="panel-body">
+                                        <li>
+                                            <a  class="Acessorios" href="product"> Acessorios </a>
+                                        </li>
+                                        <li>
+                                            <a  class="Acessorios" href="product"> Aluminio </a>
+                                        </li>
+                                        <li>
+                                            <a  class="Acessorios" href="product"> EPI </a>
+                                        </li>
+                                        <li>
+                                            <a  class="Acessorios" href="product"> Ferramentas </a>
+                                        </li>
+                                        <li>
+                                            <a  class="Acessorios" href="product"> Ferro </a>
+                                        </li>
+                                        <li>
+                                            <a  class="Acessorios" href="product"> Maquinas </a>
+                                        </li>
+                                        <li>
+                                            <a  class="Acessorios" href="product"> Fixação </a>
+                                        </li>
+                                        <li>
+                                            <a  class="Acessorios" href="product"> Vidro </a>
+                                        </li>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingFour">
+                                <div class="panel-heading ph-orange collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Fornecedor
+                                    <i class="fa fa-sort-desc" aria-hidden="true"></i>
+                                    <i class="fa fa-sort-asc" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                                <div class="card-body">
+                                    <div class="panel-body">
+                                        <li>
+                                            <a  class="Acessorios" href="product"> Acessorios </a>
+                                        </li>
+                                        <li>
+                                            <a  class="Acessorios" href="product"> Aluminio </a>
+                                        </li>
+                                        <li>
+                                            <a  class="Acessorios" href="product"> EPI </a>
+                                        </li>
+                                        <li>
+                                            <a  class="Acessorios" href="product"> Ferramentas </a>
+                                        </li>
+                                        <li>
+                                            <a  class="Acessorios" href="product"> Ferro </a>
+                                        </li>
+                                        <li>
+                                            <a  class="Acessorios" href="product"> Maquinas </a>
+                                        </li>
+                                        <li>
+                                            <a  class="Acessorios" href="product"> Fixação </a>
+                                        </li>
+                                        <li>
+                                            <a  class="Acessorios" href="product"> Vidro </a>
+                                        </li>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingFive">
+                                <div class="panel-heading ph-orange collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    Seguimento
+                                    <i class="fa fa-sort-asc" aria-hidden="true"></i>
+                                    <i class="fa fa-sort-desc" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                                <div class="card-body">
+                                    <div class="panel-body">
+                                        <li>
+                                            <a  class="Acessorios" href="product"> Acessorios </a>
+                                        </li>
+                                        <li>
+                                            <a  class="Acessorios" href="product"> Aluminio </a>
+                                        </li>
+                                        <li>
+                                            <a  class="Acessorios" href="product"> EPI </a>
+                                        </li>
+                                        <li>
+                                            <a  class="Acessorios" href="product"> Ferramentas </a>
+                                        </li>
+                                        <li>
+                                            <a  class="Acessorios" href="product"> Ferro </a>
+                                        </li>
+                                        <li>
+                                            <a  class="Acessorios" href="product"> Maquinas </a>
+                                        </li>
+                                        <li>
+                                            <a  class="Acessorios" href="product"> Fixação </a>
+                                        </li>
+                                        <li>
+                                            <a  class="Acessorios" href="product"> Vidro </a>
+                                        </li>
+                                    </div>
                                 </div>
                             </div>
                         </div>

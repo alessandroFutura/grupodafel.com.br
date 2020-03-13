@@ -24,8 +24,8 @@
     border-width: 2px;
     border-radius: 5px;
     padding: 11px 24px;
-    border-color: #CF5300;
-    background-color: #CF5300;
+    border-color: #DD6826;
+    background-color: #DD6826;
 }
 
 .home .history .parallax-picture
@@ -65,12 +65,9 @@
     background-color: white;
 }
 
-.history-page .container .row img
+.history-page .history-image
 {
-    width: 390px;
-    height: 350px;
-    border-radius: 50%;
-    margin: 20px 0 0 31%;
+    background-image: url("../imagens/dafel-old.png");
 }
 
 .history-page .container .col-sm-12
@@ -119,15 +116,15 @@
     .home .history .text-history p
     {
         padding: 0;
-        font-size: 18px;
         margin: 28px 0;
+        font-size: 18px;
     }
 
     .home .history .text-history a
     {
+        margin: 0;
         font-size: 18px;
         padding: 11px 24px;
-        margin: 0;
     }
 
     .home .history .parallax-picture

@@ -122,13 +122,13 @@ font-size: 18px;
 border-width: 2px;
 padding: 11px 24px;
 border-radius: 5px;
-border-color: #CF5300;
-background-color: #CF5300;
+border-color: #DD6826;
+background-color: #DD6826;
 }
 
 @media (max-width: 767px)
 {
-.home .company
+    .home .company
     {
         height: 100% !important;
     }

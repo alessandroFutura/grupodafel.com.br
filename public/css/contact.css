@@ -37,8 +37,8 @@
     font-size: 18px;
     text-align: center;
     border-radius: 5px;
-    border: 1px solid #CF5300;
-    background-color: #CF5300;
+    border: 1px solid #DD6826;
+    background-color: #DD6826;
 }
 
 .contact .contact-telesales
@@ -61,22 +61,22 @@
 
 .contact .contact-telesales button
 {
-    border-color: #CF5300;
-    background-color: #CF5300;
+    border-color: #DD6826;
+    background-color: #DD6826;
 }
 
 .contact .contact-telesales button:hover
 {
-    background-color: #CF5300;
-    border-color: #CF5300;
-    box-shadow: #CF5300;
+    box-shadow: #DD6826;
+    border-color: #DD6826;
+    background-color: #DD6826;
 }
 
 .contact .contact-telesales button:focus
 {
-    background-color: #CF5300;
-    border-color: #CF5300;
-    box-shadow: #CF5300;
+    box-shadow: #DD6826;
+    border-color: #DD6826;
+    background-color: #DD6826;
 }
 
 @media (max-width: 767px)

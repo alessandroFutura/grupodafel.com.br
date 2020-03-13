@@ -7,7 +7,7 @@
 .product .search-product .container
 {
     height: 110px;
-    background-color: #CF5300;
+    background-color: #DD6826;
 }
 
 .product .product-picture
@@ -150,7 +150,7 @@
 .product .search-product
 {
     margin-bottom: 30px;
-    background-color: #CF5300;
+    background-color: #DD6826;
 }
 
 .product .product-row .product-card
@@ -204,8 +204,8 @@
     padding: 2px 2px;
     text-align: center;
     border-radius: 5px;
-    border-color: #CF5300;
-    background-color: #CF5300;
+    border-color: #DD6826;
+    background-color: #DD6826;
 }
 
 .product .select-category .list-links li
@@ -238,8 +238,8 @@
     padding: 2px 2px;
     text-align: center;
     border-radius: 5px;
-    border-color: #CF5300;
-    background-color: #CF5300;
+    border-color: #DD6826;
+    background-color: #DD6826;
 }
 
 .product .select-category .mark .mark-filter
@@ -265,8 +265,8 @@
     font-size: 18px;
     text-align: center;
     border-radius: 5px;
-    border: 1px solid #CF5300;
-    background-color: #CF5300;
+    border: 1px solid #DD6826;
+    background-color: #DD6826;
 }
 
 .product .select-category .mark .mark-filter-button button:hover
@@ -283,8 +283,8 @@
     padding: 2px 2px;
     text-align: center;
     border-radius: 5px;
-    border-color: #CF5300;
-    background-color: #CF5300;
+    border-color: #DD6826;
+    background-color: #DD6826;
 }
 
 .product .catalog .order-product
@@ -350,8 +350,8 @@
     font-size: 15px;
     padding: 5px 6px;
     border-radius: 5px;
-    border-color: #CF5300;
-    background-color: #CF5300;
+    border-color: #DD6826;
+    background-color: #DD6826;
 }
 
 .home .product .flip-card-front .home-text-product
@@ -359,11 +359,165 @@
     text-align: -webkit-center;
 }
 
+.product .select-product .button-filter-mobile
+{
+    top: 315px;
+    z-index: 2;
+    right: -25px;
+    display: none;
+    position: fixed;
+    transform: rotate(-90deg);
+}
+
+.product .select-product .page-filter
+{
+    top: 90px;
+    bottom: 0;
+    left: 100%;
+    width: 100%;
+    z-index: 99;
+    position: fixed;
+    overflow: scroll;
+    background-color: white;
+    transition: all .3s ease;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+}
+
+.product .select-product .page-filter .title-filter
+{
+    color: white;
+    display: flex;
+    background-color: #DD6826;
+    justify-content: space-between;
+}
+
+.product .select-product .page-filter .title-filter .title-filter-text
+{
+    margin: 5px 15px;
+}
+
+.product .select-product .page-filter .title-filter .button-filter-close
+{
+    color: white;
+    font-size: 35px;
+    margin-top: 5px;
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.product .select-product .button-filter-mobile button
+{
+    color: white;
+    background-color: #DD6826;
+    border: 1px solid #DD6826;
+}
+
+.product .select-product .page-filter .filter-contents
+{
+    left: 0;
+    right: 0;
+    top: 60px;
+    bottom: 0;
+    margin: 0;
+    padding: 25px;
+    overflow-y: auto;
+    position: absolute;
+}
+
+.product .select-product .page-filter .filter-search-title
+{
+    color: white;
+    padding: 10px;
+    display: flex;
+    background-color: #DD6826;
+    justify-content: space-between;
+}
+
+.product .select-product .page-filter .card
+{
+    border: 0;
+    padding: 10px 20px;
+    background-color: transparent;
+}
+
+.product .select-product .page-filter .card-header
+{
+    border-radius: 5px;
+    background-color: #DD6826;
+}
+
+.product .select-product .page-filter .card-header .panel-heading .fa-sort-desc
+{
+    display: none;
+    font-size: 20px;
+}
+
+.product .select-product .page-filter .card-header .panel-heading .fa-sort-asc
+{
+    display: block;
+    font-size: 20px;
+}
+
+.product .select-product .page-filter .card-header .panel-heading.collapsed .fa-sort-desc
+{
+    display: block;
+    font-size: 20px;
+}
+
+.product .select-product .page-filter .card-header .panel-heading.collapsed .fa-sort-asc
+{
+    display: none;
+    font-size: 20px;
+}
+
+.product .select-product .page-filter .card-body
+{
+    border: 1px solid #b7b7b7;
+}
+
+.product .select-product .page-filter .card-body input
+{
+    width: 100%;
+}
+
+.product .select-product .page-filter .card-body button
+{
+   color: #DD6826;
+}
+
+.product .select-product .page-filter .card-body button#button-search
+{
+    float: right;
+}
+
+.product .select-product .page-filter .card-header .panel-heading
+{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product .select-product .page-filter .panel-body li
+{
+    list-style-type: none;
+}
+
+.product .select-product .page-filter .panel-body a
+{
+    color: #DD6826;
+}
+
+
 @media (max-width: 767px)
 {
     .margin-top-6
     {
         margin-top: 0;
+    }
+
+    .home .product .container
+    {
+        background-color: #f6f6f6;
     }
 
     .product .row .flip-card
@@ -382,7 +536,7 @@
     .product .row .product-picture
     {
         min-width: 130px;
-        max-height: 118px;
+        max-height: 120px;
     }
 
     .product .row .flip-card-front .button-product-mobile
@@ -406,6 +560,64 @@
     .home .product .flip-card-front .home-text-produc
     {
         width: 55%;
+    }
+
+    .product .search-bar
+    {
+        display: none;
+    }
+
+    .product .select-product .select-category
+    {
+        display: none;
+    }
+
+    .product .select-product .container
+    {
+        background-color: #f6f6f6 !important;
+    }
+
+    .product .select-product .product-catalog .product-description
+    {
+        display: flex;
+        background: white;
+        margin: 0 5px 10px 5px;
+    }
+
+    .product .catalog .product-catalog img
+    {
+        width: 185px;
+        height: 165px;
+    }
+
+    .product
+    {
+        background-color: #f6f6f6;
+    }
+
+    .product .select-product .pagination p
+    {
+        font-size: 15px;
+    }
+
+    .product .select-product .pagination-number
+    {
+        font-size: 15px;
+    }
+
+    .product .select-product .order-product
+    {
+        display: none;
+    }
+
+    .product .select-product .button-filter-mobile
+    {
+        display: flex;
+    }
+
+    .product .select-product .page-filter.visible
+    {
+        left: 0;
     }
 
 }
