@@ -361,7 +361,7 @@
 
 .product .select-product .button-filter-mobile
 {
-    top: 315px;
+    top: 117px;
     z-index: 2;
     right: -25px;
     display: none;
@@ -385,8 +385,11 @@
 
 .product .select-product .page-filter .title-filter
 {
+    z-index: 10;
+    width: 100%;
     color: white;
     display: flex;
+    position: fixed;
     background-color: #DD6826;
     justify-content: space-between;
 }
@@ -435,6 +438,7 @@
 
 .product .select-product .page-filter .card
 {
+    top: 80px;
     border: 0;
     padding: 10px 20px;
     background-color: transparent;
@@ -518,6 +522,11 @@
     .home .product .container
     {
         background-color: #f6f6f6;
+    }
+
+    .home .product .title-product
+    {
+        background-color: #DD6826;
     }
 
     .product .row .flip-card
@@ -619,5 +628,4 @@
     {
         left: 0;
     }
-
 }

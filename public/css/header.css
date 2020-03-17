@@ -53,13 +53,18 @@ header .container .categories
     position: fixed;
     overflow: hidden;
     transition: all .3s ease;
-    background-color: #CF5300;
+    background-color: #DD6826;
     box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
 }
 
 .menu-mobile .segment-menu
 {
     margin: 15px 0;
+}
+
+.menu-mobile .segment-menu .product-segment
+{
+    height: 70px;
 }
 
 .menu-mobile .page-menu
@@ -104,6 +109,7 @@ header .container .categories
     .menu-mobile.visible
     {
         left: 0;
+        height: 100%;
     }
 
 }
