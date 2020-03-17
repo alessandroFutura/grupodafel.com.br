@@ -78,7 +78,7 @@
     padding: 0 0 0 385px;
 }
 
-.company .container .col-sm-12
+.company .container .col-md-12
 {
     right: 0;
     z-index: 0;
@@ -136,6 +136,9 @@ background-color: #DD6826;
     .home .company .company-description
     {
         height: 100%;
+        display: block;
+        text-align: center;
+        position: relative;
     }
 
     .home .company .headquarters

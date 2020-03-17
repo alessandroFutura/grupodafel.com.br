@@ -135,6 +135,7 @@
     .provider
     {
         height: 80px;
+        margin-top: 15px;
     }
 
     .provider .animation div,
